@@ -5,7 +5,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="FeatureFiles/TestCase02_Login.feature",
+@CucumberOptions(features="FeatureFiles/TestCase04_Tab.feature",
 					glue="com.Lumens.StepDefinitions",
 					dryRun = false,
 					monochrome = true,

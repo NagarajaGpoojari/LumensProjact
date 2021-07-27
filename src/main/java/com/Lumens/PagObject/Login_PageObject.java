@@ -60,12 +60,12 @@ public class Login_PageObject extends BaseClass {
 		
 	}
 	public void Logout() throws Exception {
-		Thread.sleep(20000
-				);
-	//(JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", Account2);
-		Account2.getLocation();
+		Thread.sleep(20000);
+		//((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", Account2);
+		//Account2.getLocation();
 		Actions action=new Actions(driver);
 		action.moveToElement(Account2).build().perform();
+		Logoutlink.getLocation();
 		Logoutlink.click();
 		Logout.click();
 	}
